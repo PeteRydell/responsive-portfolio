@@ -6,17 +6,18 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="assets/style.css">
-    <title>Document</title>
+    <title>Peter Rydell - Contact</title>
 </head>
 
 <body>
 <header>
-    <div class="container-fixed justify-content-center">
+    <div class="container-fixed border-bottom">
         <div class="row">
+            <div class="col-md-1"></div>
             <div class="col-md-10">
             <nav class="navbar navbar-expand-lg navbar-light bg-white">
             <span class="navbar-brand name" style="background-color: #4aaaa5; color:white;">Peter Rydell</span>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <div class="collapse navbar-collapse justify-content-end container-fluid" id="navbarNav">
                 <div class="navbar-nav align-items-end">
                     <a class="nav-item nav-link active" style="color:#dddddd"; href="index.html">About</a>
                     <a class="nav-item nav-link active" style="color:#dddddd"; href="portfolio.html">Portfolio</a>
@@ -24,6 +25,7 @@
                 </div>
             </div>
             </div>
+            <div class="col-md-1"></div>
         </nav>
         </div>
     </div>
@@ -31,27 +33,32 @@
 
 <div class="row justify-content-center">
     <div class="col-lg-10">
-        <form>
-        <div class="form-group">
-            <h2>Contact</h2>
-        <div class="form-group">
-            <label for="exampleInputPassword1">Name</label>
-            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="John Smith">
+        <div class="card border-1" style="margin: 30px">
+        <div class="card-body">
+            <form>
+            <div class="form-group">
+                <h2>Contact</h2>
+                <hr>
+            <div class="form-group">
+                <label for="exampleInputPassword1">Name</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="John Smith">
+            </div>
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="example@gmail.com">
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1">Message</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn" style="background-color:#4aaaa5; color: white">Submit</button>
+            </div>
+            </form>
         </div>
-        <label for="exampleInputEmail1">Email address</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="example@gmail.com">
-        <div class="form-group">
-            <label for="exampleFormControlTextarea1">Message</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
         </div>
-        <button type="submit" class="btn" style="background-color:#4aaaa5; color: white">Submit</button>
-        </div>
-        </form>
     </div>
 </div>
 </body>
 
-<footer class="page-footer font-small pt-4">
+<footer class="page-footer font-small border">
   <div class="container-fluid text-center text-md-left">
     <div class="row">
       <hr class="clearfix w-100 d-md-none pb-3">
@@ -60,9 +67,8 @@
       </div>
     </div>
   </div>
-  <div class="footer-copyright text-center py-3" style="background:#666666; color: white; border-top-width: thick; border-block-color: #4aaaa5; border-top-style: solid;">©Copyright
+  <div class="footer-copyright text-center py-3" style="background:#666666; color: white;">©Copyright
   </div>
 </footer>
-</html>
-  
+
 </html>
