@@ -11,9 +11,11 @@
 
 <body>
 <header>
-    <div class="container-fluid">
-        <nav class="navbar navbar-expand-lg navbar-light bg-white">
-            <a class="navbar-brand" style="background-color: #4aaaa5; color:white;">Peter Rydell</a>
+    <div class="container-fixed">
+        <div class="row">
+            <div class="col-md-10">
+            <nav class="navbar navbar-expand-lg navbar-light bg-white">
+            <span class="navbar-brand name" style="background-color: #4aaaa5; color:white;">Peter Rydell</span>
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <div class="navbar-nav align-items-end">
                     <a class="nav-item nav-link active" style="color:#dddddd"; href="index.html">About</a>
@@ -21,24 +23,26 @@
                     <a class="nav-item nav-link active" style="color:#dddddd"; href="contact.html">Contact</a>
                 </div>
             </div>
+            </div>
         </nav>
+        </div>
     </div>
 </header>
 
-  <div class="container">
-    <div class="row">
-        <div class="col-md-8">
+  <div class="container-fixed" style="margin-top: 30px; border: gray">
+    <div class="row justify-content-center">
+        <div class="col-md-10">
             <div class="page-header">
-                <h1>About Me</h1>
+                <h1 style="border-bottom: gray; color: #4aaaa5">About Me</h1>
             </div>
             <div class="row">
-                <div class="col-md-8">
-                    <div class="pull-left">
-                        <img src="assets/sky-diving.jpg" alt="Headshot" class="img-thumbnail">
-                    </div>
+                <div class="col-md-10">
+                    <div>
+                        <img src="assets/sky-diving.jpg" alt="Headshot" class="img-fluid float-lg-left">
                         <p>Hi, my name is Peter Rydell and I'm an aspiring coder living and working in Los Angeles, CA.</p>
                         <p>rior to moving to LA, I worked in Washington D.C. for four years in public affairs consulting on behalf of primarily government, trade association and defense clients. It's there where I started to develop an interest in coding and web development, with several initial projects focused on client website curation. I still work for the same company in California, but my focus is now on media relations in the consumer tech space with companies such as Sony Electronics and Riot Games.</p>
                         <p>I graduated from Sewanee in 2014 with a BA in International and Global Studies as well as a minor in Political Science. I'm a lifelong Cleveland Browns fan, avid movie-goer and foodie. I love dogs - I have a fresh puppy named Murray, I hate sour cream and I'm one for two in eating competitions.</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -47,16 +51,16 @@
 
 </body>
 
-<div class="container">
-        <div class="row" 
-             style="background:transparent url('img/profile.png') no-repeat center center /cover">
-          <div class="col-lg-12">
-            <div class="intro-text">
-              <span class="name">HEADING</span>
-              <hr class="star-light">
-              <span class="skills">TEXT</span>
-            </div>
-          </div>
-        </div>
+<footer class="page-footer font-small pt-4">
+  <div class="container-fluid text-center text-md-left">
+    <div class="row">
+      <hr class="clearfix w-100 d-md-none pb-3">
       </div>
+      <div class="col-md-3 mb-md-0 mb-3">
+      </div>
+    </div>
+  </div>
+  <div class="footer-copyright text-center py-3" style="background:#666666; color: white; border-top-width: thick; border-block-color: #4aaaa5; border-top-style: solid;">©Copyright
+  </div>
+</footer>
 </html>
