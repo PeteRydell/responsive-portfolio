@@ -8,9 +8,13 @@
     padding: 28px 
 }
 
-.bg{
-    background-image: url(assets/funky-lines.png);
-}
+body {
+    background: url(../assets/funky-lines.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+  }
 
 h2 {
     color: #4aaaa5;
@@ -42,4 +46,23 @@ h2 {
     padding: 10px;
     margin-top: 120px;
     width: 100%;
+}
+
+footer {
+    border-top: solid 8px #4aaaa5
+}
+
+@media (max-width: 690.98px){
+
+.navbar {
+    -webkit-box-orient: vertical!important;
+    -webkit-box-direction: normal!important;
+    -ms-flex-direction: column!important;
+    flex-direction: column!important;
+}
+​
+.name{
+    width: 105%;
+    margin-bottom: 0px;
+}
 }
